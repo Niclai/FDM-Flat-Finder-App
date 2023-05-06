@@ -20,4 +20,13 @@ To run this application you would have to change directory into the ***server***
 
 As a consultants credentials must be entered to log into the websites home page, if you do not have the login credentials you are greeted with a log in page and this is the furthest you can go. If you have access to credentials then you are able to log in and access the full website.
 
+## Example of running: 
+
+![LoginPage](/ReadMeImages/Login.png "LoginPage")
+![homePage](/ReadMeImages/homePage.png "HomePage")
+![search](/ReadMeImages/search.png "search")
+![footer](/ReadMeImages/footer.png "footer")
+![submitListing](/ReadMeImages/submitListing.png "submitListing")
+![watchlist](/ReadMeImages/watchlist.png "watchlistPage")
+
 
