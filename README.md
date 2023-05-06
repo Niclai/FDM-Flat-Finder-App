@@ -13,7 +13,7 @@ All the listings are externally saved and fetched from a ***mongo Database***. T
 - Login system for consultants
 
 ## Technologies used:
-React, Javascript, CSS, BootStrap, Python 
+React, Javascript, CSS, BootStrap, Python, MongoDB
 
 ## How to run: 
 To run this application you would have to change directory into the ***server*** file and run the file "server.py" 'python3 server.py' Whilst this file is running you are now able to run the ***client*** folder by using 'npm start'
