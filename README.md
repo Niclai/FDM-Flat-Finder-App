@@ -27,6 +27,8 @@ As a consultants credentials must be entered to log into the websites home page,
 ![search](/ReadMeImages/search.png "search")
 ![footer](/ReadMeImages/footer.png "footer")
 ![submitListing](/ReadMeImages/submitListing.png "submitListing")
+![profile](/ReadMeImages/profile.png "profilePage")
+
 ![watchlist](/ReadMeImages/watchlist.png "watchlistPage")
 
 
