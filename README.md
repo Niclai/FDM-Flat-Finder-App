@@ -10,6 +10,7 @@ How this platform works is by consultants having there own profiles. By using a 
 - Real time data fetching
 - Rent application Forms/Submit a property for listing form
 - Login system for consultants
+- Mongo Database that stores all listings and consultant information 
 
 ## Technologies used:
 React, Javascript, CSS, BootStrap, Python, MongoDB
