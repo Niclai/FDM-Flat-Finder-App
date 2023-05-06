@@ -1,0 +1,83 @@
+.createListingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f7fc;
+    font-family: Arial, sans-serif;
+    background-image: url("../assets/createListingBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+form[name="CreateListingForm"]{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.SubmitListingFormTitle{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #3a4660;
+}
+  
+.ui-form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+  
+label {
+    font-size: 1rem;
+    color: #3a4660;
+    margin-bottom: 0.5rem;
+}
+  
+input[type="number"],
+select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #f4f7fc;
+}
+  
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+  
+.submitButton {
+    background-color: #5c7cfa;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+  
+.submitButton:hover {
+    background-color: #4c6ef5;
+}
+  
+.error-message {
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+    color:#ff4242;
+}
+  
+.submitSuccess {
+    background-color: #b8e994;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}

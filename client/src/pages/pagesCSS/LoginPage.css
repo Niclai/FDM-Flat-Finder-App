@@ -1,0 +1,108 @@
+.login-logo {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-box {
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    border-radius: 5%;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+.login-header {
+    padding: 2%;
+}
+
+.login-title {
+    font-size: 45px;
+    padding-bottom: 3%;
+    color: #2691d9;
+    font-weight: lighter;
+}
+
+.username, .password {
+    text-align: left;
+    padding-left: 10%;
+    position: relative;
+    margin: 30px 0;
+}
+
+.input-uN, .input-pW {
+    border: none;
+    background: none;
+    outline: none;
+    width: 80%;
+    padding-top: 3%;
+    border-bottom: 2px solid black !important;
+}
+
+.submit-button {
+    width: 50%;
+    height: 50px;
+    background-color: #2691d9;
+    border-radius: 25px;
+    border-color: #2691d9;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+
+.submit-button:hover {
+    border-color: #2691d9;
+    color: #2691d9;
+    background-color: white;
+    transition: 0.25s;
+}
+
+@keyframes shake {
+    0% {
+        margin-left: 0rem;
+      }
+      25% {
+        margin-left: 0.5rem;
+      }
+      75% {
+        margin-left: -0.5rem;
+      }
+      100% {
+        margin-left: 0rem;
+      }
+  }
+
+.message {
+    animation: shake 0.2s ease-in-out 0s 2;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    background-color: red;
+    border-color: red;
+    border-radius: 25px;
+    width: 15%;
+    margin: auto;
+    padding: 1%;
+    font-size: 115%;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+}
+
+.login-background {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(40deg, rgba(21, 65, 200, 1) 0%, rgba(136, 32, 187, 1) 100%);
+    height: 100vh;
+}

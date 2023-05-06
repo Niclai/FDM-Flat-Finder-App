@@ -1,0 +1,186 @@
+.value{
+    color: black;
+}
+
+.profilePageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../assets/ProfileBackground.jpeg");
+    filter: brightness(0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    content: "";
+}
+
+.ProfilePageSubmitSuccess {
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5%;
+}
+
+form[name="CreateFDMProfile"]{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fields{
+    display: flex;
+}
+
+.sectionMult{
+    display: flex;
+}
+
+.section{
+    padding-bottom: 0.5em;
+    padding-right: 0.35em;
+}
+
+legend{
+    margin: auto;
+    padding: 0.75em;
+    font-size: 2em;
+    font-weight: bold;
+    color: #3a4660;
+}
+
+fieldset{
+    border: none;
+}
+  
+.ui-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+  
+label {
+    font-size: 1rem;
+    color: #3a4660;
+    margin-bottom: 0.5rem;
+}
+  
+input[type="number"],
+input[type="date"],
+.profile-input,
+select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #f4f7fc;
+}
+  
+
+.clearButton{
+    background-color: #e8e7da;
+    color: black;
+    border: black;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+#submit{
+    text-align: right;
+}
+  
+.submitButton:hover {
+    background-color: #4c6ef5;
+}
+  
+.errorMessage {
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+    color: #ff4242;
+}
+
+.info{
+    color: rgb(175, 171, 171);
+}
+
+legend{
+    align-self: center;
+}
+
+.ProfileSuccessTitle{
+    font-family: monospace;
+    color: #192841;
+    text-align: left;
+}
+
+.Profile-top{
+    font-size: 36px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.Profile-top2{
+    font-size: 24px;
+    opacity: 0.7;
+}
+
+.Profile-title{
+    font-family: monospace;
+    color: #192841;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.Profile-user-initials {
+  align-items: center;
+
+}
+
+.Profile-initials-circle {
+  border-radius: 50%;
+  border: 2px solid #192841;
+  color: #ffffff;
+  background-color: rgb(214, 134, 85);
+  font-size: bold;
+  font-size: 38px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.Profile-editButton {
+    background: linear-gradient(45deg, #FF416C, #FF4B2B);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 100px;
+  }
+
+.Profile-full-name {
+  font-size: 36px;
+  margin-top: 10px;
+  text-align: center;
+}
+  

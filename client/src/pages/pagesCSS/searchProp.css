@@ -1,0 +1,275 @@
+.Title {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: rgb(196, 203, 216);
+}
+
+.hero {
+  /* gives the slight shading of the photo */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.hero:before {
+  content: "";
+  background: url("../assets/flatx.jpeg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.listingButtons button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding: 10px 24px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.listingButtons button:hover {
+  background-color: #45a049;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.Searchfeature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.Searchfeature form,
+.Searchfeature button[name="showAllButton"] {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.Searchfeature label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.Searchfeature input[type="number"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.Searchfeature button[type="submit"],
+.Searchfeature button[name="showAllButton"] {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Searchfeature button[type="submit"]:hover,
+.Searchfeature button[name="showAllButton"]:hover {
+  background-color: #555;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.ListingsDisplay {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.ListingsDisplay h2 {
+  margin-bottom: 1rem;
+}
+
+.ListingsDisplay ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ListingsDisplay li {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.ListingsDisplay li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.ListingsDisplay img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.propertyInfo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.2rem;
+  padding: 0.5rem;
+}
+
+.listingImage {
+  margin-right: 1rem;
+  float: left;
+  clear: both;
+}
+
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color:#4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem; /* Add this line to create more space between the buttons */
+}
+
+.pagination button {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #555;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-weight: bold;
+}
+
+
+
+
+/*footer CSS*/
+
+.findFlat {
+  width: 100%;
+  text-align: center;
+}
+
+.findFlat > div {
+  display: flex;
+  justify-content: center;
+}
+
+.findFlat > div p {
+  margin: 1rem 2rem;
+  font-size: 1.2rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.findFlat .Imagecontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.2rem;
+  padding: 1rem;
+}
+
+.findFlat .Imagecontainer img {
+  width: 100%;
+}
+
+.findFlat .Imagecontainer img {
+  height: 300px;
+}
+
+
+
+.footerContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1rem;
+  padding-bottom: 5em;
+}
+
+.footer .col {
+  margin: auto;
+}
+
+.footer h3 {
+  margin: 0.8rem 0;
+}
+
+.footer p {
+  margin: 0.4rem 0;
+}
+
+.footer .social {
+  text-align: center;
+}
+
+.footer .icon {
+  font-size: 2rem;
+  margin: 2rem 3rem;
+}
+
+.footer .icon {
+  margin: 1rem;
+}
+
