@@ -7,10 +7,10 @@ How this process works is by consultants having there own profiles. This give ea
 All the listings are externally saved and fetched from a ***mongo Database***. This ensures real time updates to the data being displayed on the website.
 
 ### Features: 
--WatchList page specific to consultants
--Real time data fetching
--Rent application Forms/Submit a property for listing form
--Login system for consultants
+- WatchList page specific to consultants
+- Real time data fetching
+- Rent application Forms/Submit a property for listing form
+- Login system for consultants
 
 ## Technologies used:
 React, Javascript, CSS, BootStrap, Python 
