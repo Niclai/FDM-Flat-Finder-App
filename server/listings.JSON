@@ -1,0 +1,40 @@
+[
+    {
+        "noRooms" : 3,
+        "typeOfProperty" : "Flat",
+        "flatShare" : true,
+        "durationOfTime" : "9 months",
+        "price" : 100000 
+    },
+
+    {
+        "noRooms" : 2,
+        "typeOfProperty" : "Flat",
+        "flatShare" : false,
+        "durationOfTime" : "12 months",
+        "price" : 150000 
+    },
+
+    {
+        "noRooms" : 6,
+        "typeOfProperty" : "Terraced House",
+        "flatShare" : false,
+        "durationOfTime" : "12 months",
+        "price" : 250000 
+    },
+
+    {
+        "noRooms" : 5,
+        "typeOfProperty" : "Terraced House",
+        "flatShare" : false,
+        "durationOfTime" : "12 months",
+        "price" : 150000 
+    },
+
+    {
+        "noRooms" : 3,
+        "typeOfProperty" : "Flat",
+        "flatShare" : true,
+        "durationOfTime" : "6 months",
+        "price" : 50000 
+    }]
