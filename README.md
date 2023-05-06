@@ -10,7 +10,7 @@ All the listings are externally saved and fetched from a mongo Database. This en
 React, Javascript, CSS, BootStrap, Python 
 
 ## How to run: 
-To run this application you would have to change directory into the server file and run the file "sever.py" Whilst this file is running you are now able to run the client folder by using "npm start" 
+To run this application you would have to change directory into the server file and run the file "server.py" 'python3 server.py' Whilst this file is running you are now able to run the client folder by using 'npm start'
 
 As a consultants credentials must be entered to log into the websites home page, if you do not have the login credentials you are greeted with a log in page and this is the furthest you can go. If you have access to credentials then you are able to log in and access the full website.
 
